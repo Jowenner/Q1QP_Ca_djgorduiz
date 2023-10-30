@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@300&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@300&family=Poppins&family=Roboto&display=swap');
+
+/**Not in order**/
+/**Things are reused in some pages**/
+/**Code is copied from my own assessments i swear to god**/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+   position: relative;
+   height: 100vh;
+}
+/** Header Start**/
+.header {
+    height: 10vh;
+    width: 100%;
+    position: relative;
+    background-color: #1B4079;
+}
+.header .logo {
+    background-image: url(images/logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    width:10vh;
+    height: 10vh;
+    left: 10%;
+    bottom: 0.5%;
+    position: absolute;
+    
+}
+.links {
+    position: absolute;
+    display: inline;
+    padding: 1.5vw;
+    right: 1em;
+    
+}
+.links a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 120%;
+    font-family: 'Roboto', sans-serif;;
+    margin-right: 20px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 0.5em;
+    margin-top: 1em;
+    cursor: pointer;
+    transition: background-color 0.5s ease;   
+}
+.links a:hover {
+    background-color: #CBC3E3;
+}
+/** Header End**/
+/**Banner Start**/
+.banner {
+    background-color: #39A9DB ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+    position: relative;
+
+}
+
+.bannertxt {
+    position:absolute;
+    left: 3%;
+    top: 25%;
+
+   
+}
+.bannertxt h2 {
+    font-size: 450%;
+    font-family:  'Poppins', sans-serif;
+    color: white;
+}
+.bannertxt p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size:140%;
+    color: black;
+    margin-bottom: 2em;
+}
+.bannertxt a {
+    border-radius: 0px;
+    padding: 1em;
+    margin-top: 1em;
+    background-color: #5CE1E6;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color:black;
+    
+}
+/**Banner End**/
+/**Footer Start**/
+.footer {
+    height: 5vh;
+    width: 100%;
+    position: inline-block;
+    background-color:#1B4079;
+    
+    
+}
+.copyright {
+    position: relative;
+    margin-left: 2vw;
+    padding: 0.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+}
+.footer .socials {
+    float: right;
+    right: 3vw;
+    top:96%;
+    position: absolute;
+    
+    
+}
+.socials #rblx, #gh, #yt {
+    display: inline-block;
+}
+
+.socials img{
+    height: 3vh;
+    width: 3vw;
+    border-radius: 50%;
+}
+/**Footer End**/
+/**Background/Study Start**/
+
+.studytxt {
+    padding: 2em;
+    top: 8vh;
+}
+
+.studytxt h2{
+   margin-bottom: 0.5em;
+   font-family: 'Poppins', sans-serif;
+   font-size: 240%;
+   font-weight: 700;
+   color: white;
+
+}
+
+.studytxt p{
+    margin-bottom: 1.5em;
+    font-family: 'Montserrat', 'sans-serif';
+    font-size: 140%;
+    font-weight: 500;
+
+}
+.studytxt a{
+    border-radius: 10px;
+    padding: 1em;
+    margin-top: 1em;
+    background-color: #5CE1E6;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color:black;
+    position: absolute;
+    left: 45%;
+    bottom: 1%;
+    
+}
+/**Background/Study End**/
+/**Intro Start**/
+.introtxt  {
+    margin-bottom: 0.5em;
+    padding: 0.5em;
+    top: 1vh;
+    text-align: right;
+}
+.introtxt h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 240%;
+    font-weight: 700;
+    color: white;
+}
+.introtxt p {
+    font-family: 'Montserrat', 'sans-serif' ;
+    font-size: 160%;
+    font-weight: 500;
+    color: black;
+}
+.introtxt2 {
+    padding: 0.5em;
+    top: 1vh;
+    
+} 
+.introtxt2 h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 240%;
+    font-weight: 700;
+    color: white;
+}
+.introtxt2 p{
+    font-family: 'Montserrat', 'sans-serif' ;
+    font-size: 160%;
+    font-weight: 500;
+    color: black;
+}
+/**Intro End**/
+/**Conclusion Start**/
+.concludetxt {
+  
+    padding: 2em;
+    top: 8vh;
+
+}   
+.concludetxt h2 {
+    margin-bottom: 0.5em;
+    font-family: 'Poppins', sans-serif;
+    font-size: 240%;
+    font-weight: 700;
+    color: white;
+    
+}
+.concludetxt p{
+    margin-bottom: 2em;
+    font-family: 'Montserrat', 'sans-serif' ;
+    font-size: 160%;
+    font-weight: 500;
+    color: black;
+   
+}
+/**Conclusion End**/
+/**Discussion parts 1,2,3 Start**/
+.gallery {
+    padding-top: 6vh;
+}
+.image img {
+   height: 30vh;
+   width: 22vw;
+}
+.first {
+    display: inline-block;
+    margin-left: 16vw;
+}
+.second {
+    display: inline-block;
+    margin-left: 1vw;
+}
+.third {
+    display: inline-block;
+    margin-left: 1vw;
+}
+.discusstxt {
+    margin-top: 3vh;
+}
+.discusstxt h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 240%;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+.discusstxt p {
+    font-family: 'Montserrat', 'sans-serif' ;
+    font-size: 160%;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+}
+.banner .button {
+   
+    position: absolute;
+    top: 10%;
+    left: 90%;
+
+
+}
+.button a{
+    border-radius: 20px;
+    padding: 2.5em; 
+    text-align: center;
+    background-color: #5CE1E6;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color:black;
+}
+/**Discussion parts 1,2,3 end**/
+/**Table starts**/
+table, th, td {
+    border: 2px solid black;
+    margin: auto;
+}
+td img {
+    height:65vh;
+    width: 19vw;
+}
+.title {
+    padding: 1.5vh;
+    text-align: center;
+    
+}
+.title h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 240%;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+/**Table Ends**/
+/**About starts**/
+.abouttitle{
+    text-align: center;
+    padding-top:2vh;
+}
+.abouttitle h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 240%;
+    font-weight: 700;
+    color: white;
+
+}
+.aboutgallery {
+    padding-top: 3vh;
+}
+.aboutimage img {
+    height: 30vh;
+    width: 20vw;
+    border-radius: 50%;
+    margin: auto;
+}
+.aboutfirst {
+    display: inline-block;
+    margin-left: 16vw;
+}
+.aboutsecond {
+    display: inline-block;
+    margin-left: 3vw;
+}
+.aboutthird {
+    display: inline-block;
+    margin-left: 3vw;
+}
+.abouttxt {
+    display: flex;
+    font-family: 'Montserrat', 'sans-serif' ;
+    font-size: 90%;
+    font-weight: 500;
+    color: black;
+
+}
+.paragraph1 {
+    flex: 1;
+    margin: 20px;
+    
+}
+.paragraph2 {
+    flex: 1;
+    margin: 20px;
+    
+}
+/**About End**/
